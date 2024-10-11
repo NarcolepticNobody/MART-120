@@ -1,0 +1,35 @@
+
+  h1 {
+    color: rgb(226, 226, 226);
+    text-align: center;
+  }
+  h2 {
+    color: #ebeaea;
+    text-align: center;
+  }
+  h3 {
+    color: #caae0b;
+    text-align: center;
+  }
+  .ol {
+    text-align: center;
+  }
+
+  .myClass {
+
+    font-size:99px
+    color:medium
+    font-weight: bold;
+}
+
+#myID {
+
+    font-size:larger;
+    color: blue;
+    font-weight: bold;
+}
+
+li {
+
+    color:aqua
+}

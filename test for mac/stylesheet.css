@@ -1,0 +1,26 @@
+div { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: larger;
+
+}
+
+span {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    color: rgb(30, 233, 233);
+    font-size: xx-large;
+}
+
+.myClass {
+
+    font-size: larger;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#myID {
+
+    font-size:larger;
+    color: blue;
+    font-weight: bold;
+}
