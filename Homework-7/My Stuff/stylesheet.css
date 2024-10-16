@@ -1,0 +1,32 @@
+
+  
+  h1 {
+    color: #f1e1b3;
+    text-align: center;
+    
+  }
+  h2 {
+    color: #f1e1b3;
+    text-align: center;
+  }
+  h3 {
+    color: #caae0b;
+    text-align: center;
+  }
+  ol {
+    text-align: center;
+  }
+  li {
+    list-style: square inside url("sqpurple.gif");
+  }
+ 
+    img {
+        border-radius: 50%;
+      }
+  
+    p {
+
+    border-image: fill;
+    
+    }
+  
