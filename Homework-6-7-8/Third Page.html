@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>My First Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+       
+       
+        
+        
+       
+        <style type="Text/css">
+            h1 {
+              color: #e2e2e2;
+              text-align: center;
+            }
+            h2 {
+              color: #ebeaea;
+              text-align: center;
+              font-size:30px;
+            }
+            h3 {
+              color: #caae0b;
+              text-align: center;
+              font-size:50px;
+            }
+            p {
+              color: #ebeaea;
+              text-align: center;
+            }
+            body {
+              color: #ebeaea;
+              text-align: center;
+            }
+            
+          </style>
+
+<script>
+
+  function plant ()
+  {
+
+    var firstName = document.getElementById ("fname").value;
+ if(firstName=="")
+  {
+    document.getElementById ("fname").style.backgroundColor="red"
+    document.getElementById ("fname").focus();
+
+  }   
+
+  else{
+document.getElementById ("fname").style.backgroundColor="white"
+
+  }
+  if(document.getElementById("accept").checked==false)
+  {
+
+    document.getElementById ("message").innerHTML="Select Box";
+
+  }
+else {
+  document.getElementById ("message").innerHTML="";
+
+}
+var lastName = document.getElementById ("lname").value;
+if(lastName=="")
+  {
+    document.getElementById ("lname").style.backgroundColor="red"
+    document.getElementById ("lname").focus();
+
+  } 
+  else{
+document.getElementById ("lname").style.backgroundColor="white"
+
+  }
+  var Email = document.getElementById ("Email").value;
+ if(Email=="")
+  {
+    document.getElementById ("Email").style.backgroundColor="red"
+    document.getElementById ("Email").focus();
+  }   
+  else{
+document.getElementById ("Email").style.backgroundColor="white"
+
+  }
+
+  } 
+
+    
+
+</script>
+
+
+    </head>
+    <body style="background-color:#0A1828;">
+        <h3>Contact Us!</h3>
+        <h2>Enter your information:</h2>
+        <br />
+        
+        <form>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br>
+          <label for="Email">Email:</label><br>
+          <input type="text" id="Email" name="Email">
+        </form>
+      
+            <h3>Accept Terms of Service</h3>
+<input type="checkbox" name="Accept" value="Accept" id="accept">Accept
+<span id="message" style="color:red">
+
+</span>
+<button type="button" class="btn btn-primary" onclick="plant()">Submit</button>
+
+<script>
+
+  doculment.getElementById("myID").innerHTML = "Contact Us"  + myName;
+
+</script>
+            
+    </body>
+    
+    <h2>Pages</h2>
+<footer><a href="Homepage 3.0.html" target="_new">1</a> <a href="secondpage.html" target="_new">2</a> <a href="Third%20Page.html">3</a></footer>    
+
+
+    </html>

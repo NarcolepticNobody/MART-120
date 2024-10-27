@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(22, 26, 56);
+  }
+  
+  h1 {
+    color: #f1e1b3;
+    text-align: center;
+    
+  }
+  h2 {
+    color: #f1e1b3;
+    text-align: center;
+  }
+  h3 {
+    color: #caae0b;
+    text-align: center;
+  }
+  ol {
+    text-align: center;
+  }
+  li {
+    list-style: square inside url("sqpurple.gif");
+  }
+  
+  footer {
+    color: #f1e1b3;
+    text-align: center;
+  }
+  
