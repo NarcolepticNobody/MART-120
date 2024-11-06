@@ -1,9 +1,9 @@
-var headX = 250
+var headX = 100
 var headY = 100;
 var headDirection = 1;
 
 var rectX = 100;
-var rectY = 100;
+var rectY = 200;
 var rectDirection = 1;
 var X = 100;
 var Y = 100;
@@ -14,7 +14,9 @@ var squareDirection = 2;
 var size = 22;
 var count = 0;
 var sizeDirection = -2;
-var movement = 13;
+var movement = 3;
+var movement2 = 5;
+var movement3 = 7;
 
 function setup() {
   createCanvas(500, 600);
@@ -28,12 +30,12 @@ function draw() {
 circle(headX, headY,200);
   fill(255);
   count++;
-     if(count > 20)
+     if(count > 10)
     {
         sizeDirection *=-1;
-        count = 40;
+        count = 400;
     }
-   headX+=headDirection;
+  // headX+=headDirection;
   
    if(headX >= 400)
     {
@@ -49,25 +51,26 @@ circle(headX, headY,200);
   rect(rectX,188,50,rectY);
   fill(255);
   
-   rectX+=rectDirection;
-   if(rectX >= 300)
+  // rectX+=rectDirection;
+   if(rectX >= 450)
     {
-       movement *= -1;
+       movement2 *= -1;
     }
 
-     rectY += movement;
-  if(rectX >= 300)
+  //   rectY += movement;
+  if(rectX <= 0)
     {
-       movement *= -1;
+       movement2 *= -1;
     }
 
-     rectX += movement;
+     rectX += movement2;
  
   //left leg
-  rect(200,380,45,190);
+  rect(200,X,45,190);
+  fill(500,3,0);
   
   //right leg
-  rect(250,380,45,190);
+  rect(250,380,X,190);
   fill(50,3,0);
   
   //left eye
@@ -95,19 +98,19 @@ ellipse(120,250,200,60);
   
   //pelvis
   triangle(X, 400, 250, 300,400, Y);
-     rectX+=rectDirection;
-   if(rectX >= 300)
+  //   rectX+=rectDirection;
+   if(X >= 300)
     {
-       movement *= -1;
+       movement3 *= -1;
     }
 
-     rectY += movement;
-  if(rectX >= 300)
+  //   rectY += movement;
+  if(X < 0)
     {
-       movement *= -1;
+       movement3 *= -1;
     }
 
-     rectX += movement;
+     X += movement3;
  
   
   //left hand
