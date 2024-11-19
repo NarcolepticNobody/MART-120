@@ -1,4 +1,4 @@
-//I had a hard time with adding a message when I exited.
+
 //x and y for character
 var x = 190;
 var y = 100;
@@ -111,8 +111,8 @@ rect(250,100,60,390);
   
 
 //get a random speed when it first starts
-shapeXSpeed = Math.floor(Math.random() * Math.floor(Math.random() * 5))  + 1;
-shapeYSpeed = Math.floor(Math.random() * Math.floor(Math.random() * 5))  + 1;
+shapeXSpeed = Math.floor(Math.random() * Math.floor(Math.random() * 2))  + 1;
+shapeYSpeed = Math.floor(Math.random() * Math.floor(Math.random() * 2))  + 1;
 
 //move the shape 
 shapeX += shapeXSpeed;
@@ -127,7 +127,7 @@ shapeY = 60;
 if(shapeX < 12)
 {
   
-shapeY > width-20;
+shapeY > width;
 
 }
 if(shapeX > height)
@@ -144,7 +144,7 @@ shapeX = width;
 //check to see if character has left the exit
   
   
-if(characterX > width && characterY > width10)
+if(characterX > width && characterY > 10 && characterY < 100)
     {
         fill(0);
         stroke(5);
