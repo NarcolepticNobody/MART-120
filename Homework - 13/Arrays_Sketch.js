@@ -35,13 +35,13 @@ var s = 83;
 var w = 87;
 var a = 65;
 var d = 68;
-var mousex = 7;
+var mousex = 70;
 var mousey = 7;
 
 var myXs = [];
 var myYs = [];
 var myDiameters = [];
-var movement = 13;
+var movement = 10;
     
 
 
@@ -84,7 +84,7 @@ function draw() {
 textSize(20);
 text("EXIT", width-50,60)
   if(blueCircleX > width && blueCircleY > 10 && blueCircleY < 100)
-  function createBorders(thickness)
+  
 {
 
 //top border
