@@ -29,6 +29,7 @@ var y3 = 400;
 var diameter3 = 30;
 var length3 = 200;
 
+
 //key movement
 var s = 83;
 var w = 87;
@@ -69,8 +70,11 @@ myDiameters[i] = getRandomNumber(100);
 function draw() {
   rect(x, y, diameter,length);
   rect(x1, y1, diameter1, length1);
+  fill(200,3,96);
   circle(x2, y2, diameter2,);
+  fill(69,7)
   rect(x3, y3, diameter3, length3); 
+  fill(6)
   circle(50, 50, diameter);
   fill(0233, 20, 29);
     circle(300, 200, diameter);
