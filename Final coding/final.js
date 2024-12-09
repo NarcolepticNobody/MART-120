@@ -207,6 +207,10 @@ ellipse(120,250,233,60);
   fill(1000)
   square(120,350,65)
 
+  textSize(32);
+  text('Alexis Huotte', 150, 550);
+  textSize(32);
+    text('Organized Chaos!', 100, 30);
  
   
 
