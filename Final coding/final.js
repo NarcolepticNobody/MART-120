@@ -25,7 +25,7 @@ function setup() {
 }
 
 function draw() {
-  background(4,6,9,0,8);
+  background(255,0);
   
   fill(190,300, 0,20,30);
   
@@ -126,7 +126,7 @@ circle(headX, headY,100);
 ellipse(120,250,233,60); 
 
   //white circle above face
-  circle(200, 20, 100, 200);
+  circle(200, 20, 100);
   
   //white rectangle
   rect(20,200,200,100);
@@ -176,7 +176,7 @@ ellipse(120,250,233,60);
   
   //triangle 
  
-  triangle(X, 400,100, 100);
+   triangle(X, 400,100,100, 400, 500);
   
   
    if(X >= 300)
